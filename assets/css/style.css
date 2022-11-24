@@ -11,6 +11,24 @@ h1 {
     display: inline;
 }
 
+.link:hover {
+    border-radius: 15px;
+    background-color: white;
+}
+
+.link {
+    border: none;
+    background: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
 #bar {
     text-align: center;
     background-color: rgb(255, 255, 0);
