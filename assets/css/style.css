@@ -1,5 +1,17 @@
+* { 
+    font-family: 'Uchen', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(0,128,0);
+}
+
 h1 {
-    color: black;
+    color: yellow;
     text-align: center;
 }
 
@@ -12,7 +24,7 @@ h1 {
 }
 
 .link:hover {
-    border-radius: 15px;
+    
     background-color: white;
 }
 
